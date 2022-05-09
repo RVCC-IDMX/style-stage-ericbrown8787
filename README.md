@@ -37,6 +37,8 @@ I am a web development student in IDMX 268 at Raritan Valley Community College, 
 
 **Skip Link**: The skip link is hidden by default, but can be revealed by tabbing to it.
 
+**Animation**: All animations are contained within a 'prefers-reduced-motion:no-preference' media query, and animations did not trigger when system preference was set to reduced motion during testing.
+
 ## Resources
 
 [HTML Content from Style Stage by Stephanie Eckles](https://stylestage.dev)
