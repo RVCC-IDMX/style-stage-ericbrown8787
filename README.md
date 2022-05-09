@@ -31,7 +31,13 @@ I am a web development student in IDMX 268 at Raritan Valley Community College, 
 
 - An ENORMOUS header
 
-### Resources
+### Other Notes
+
+**Note on a false aXe error**: aXe cannot determine the background color of many elements due to background images. The background SVG images are almost completely transparent, and the actual background color shows through them. When they are temporarily removed, aXe returns a report with no issues.
+
+**Skip Link**: The skip link is hidden by default, but can be revealed by tabbing to it.
+
+## Resources
 
 [HTML Content from Style Stage by Stephanie Eckles](https://stylestage.dev)
 

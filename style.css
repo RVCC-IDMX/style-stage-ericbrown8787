@@ -172,20 +172,13 @@ aside h4::after {
   }
 }
 
-h1 {
-  font-size: 6rem;
-}
-
 h2 {
   font-size: var(--h2-size);
 }
 
-h3 {
-  font-size: 1.8rem;
-}
-
+h3,
 h4 {
-  font-size: 1.6rem;
+  font-size: var(--paragraph-text-size);
 }
 
 /* Base Paragraph Typography */
@@ -422,10 +415,15 @@ ul li,
 ol li {
   color: var(--normal-text-color);
   margin-inline-start: 2ch;
+  font-variation-settings: "wght" 600;
 }
 
 ul li::marker {
   content: "+ ";
+}
+
+ol li::marker,
+ul li::marker {
   font-variation-settings: "wght" 900;
 }
 
@@ -442,6 +440,10 @@ ul li::marker {
 
 #about blockquote p strong {
   display: block;
+}
+
+ol li {
+  padding-block: 0.3rem;
 }
 
 /* Files and asides */
@@ -470,6 +472,7 @@ aside ul li::marker,
 aside ul li {
   padding-block: 0.3rem;
 }
+
 aside ul {
   padding-block-end: 1.5rem;
 }
